@@ -32,6 +32,9 @@ MRuby::Build.new do |conf|
   conf.gem './mrbgems/ngx_mruby_mrblib'
   conf.gem './mrbgems/rack-based-api'
 
+  # Base 64 to use with images url
+  conf.gem :github => 'mattn/mruby-base64'
+
   # use memcached
   # conf.gem :github => 'matsumoto-r/mruby-memcached'
 
